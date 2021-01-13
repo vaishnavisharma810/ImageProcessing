@@ -25,7 +25,7 @@ Mat rotate(Mat src, double angle)   //rotate function returning mat object with 
 int main(int argc, char** argv)
 {
 	// Read the image file
-	Mat src = imread("C:\Users\HP\Downloads\SHIVANGI PHOTO.jpg");
+	Mat src = imread("C:\Users\HP\Downloads\thankyou.jpg");
 
 	// Check for failure
 	if (src.empty())
